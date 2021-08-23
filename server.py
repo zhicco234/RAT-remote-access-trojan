@@ -53,7 +53,7 @@ def cmd(conn):
 
 # connection handler 
 def handle_client(conn, addr):
-    print(f"[NEW CONNECTION]  connected")
+    print (f"[NEW CONNECTION]  connected")
     connection = True
     while connection:
         massage = input('haha: ')
